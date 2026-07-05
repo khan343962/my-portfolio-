@@ -1,0 +1,17 @@
+{
+  "name": "abdul-shakoor-portfolio",
+  "version": "1.0.0",
+  "description": "Multi-page animated portfolio website for Abdul Shakoor",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "terminal",
+    "web-developer",
+    "ai-automation"
+  ],
+  "author": "Abdul Shakoor",
+  "license": "ISC"
+}

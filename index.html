@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Shakoor | Full-Stack Developer & AI Automation Engineer</title>
+  <meta name="description" content="Portfolio of Abdul Shakoor, Full-Stack Web Developer & AI Automation Engineer. Crafting modern MERN/Next.js sites and LLM workflows.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-fade">
+
+  <!-- ==========================================================================
+       Header / Navigation
+       ========================================================================== -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <span>Abdul</span> Shakoor <span class="logo-tag logo-anim" data-target="portfolio"></span>
+      </a>
+      <button class="mobile-nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Hero Section
+       ========================================================================== -->
+  <main>
+    <section class="hero container">
+      <div class="hero-content reveal">
+        <span class="logo-tag" style="margin-left: 0; margin-bottom: 1rem; display: inline-block;">System.Ready()</span>
+        <h1>Hi, I'm <span style="color: var(--color-pink);">Abdul Shakoor</span></h1>
+        <div class="hero-subtitle">
+          &gt; <span id="terminal-typing" data-words='["Full-Stack Web Developer", "AI Automation Engineer", "Mobile App Developer"]'></span><span class="terminal-cursor"></span>
+        </div>
+        <p class="hero-desc">
+          I build production-ready web platforms, enterprise workflows, and cross-platform mobile apps. Specialize in modern JS (MERN/Next.js) and integrating Generative AI architectures to automate complex workflows.
+        </p>
+        <div class="hero-buttons">
+          <a href="projects.html" class="btn-retro">
+            <i data-lucide="folder-git-2"></i> View Projects
+          </a>
+          <a href="contact.html" class="btn-retro outline">
+            <i data-lucide="send"></i> Contact Me
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-terminal reveal">
+        <div class="terminal-window teal-shadow">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="terminal-dot pink"></span>
+              <span class="terminal-dot yellow"></span>
+              <span class="terminal-dot teal"></span>
+            </div>
+            <div class="terminal-title">shakoor.sh --profile</div>
+            <div style="width: 44px;"></div>
+          </div>
+          <div class="terminal-body" id="hero-terminal-body" style="height: 380px; display: flex; flex-direction: column; font-family: var(--font-code); font-size: 0.85rem; line-height: 1.5; justify-content: flex-start; box-sizing: border-box; overflow: hidden; padding: 1.25rem;">
+            <!-- Dynamic content injected by script.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Featured Projects Section
+         ========================================================================== -->
+    <section class="featured-projects section">
+      <div class="container">
+        <div class="reveal" style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3rem; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="logo-tag" style="margin-left: 0; margin-bottom: 0.5rem; display: inline-block;">Featured Work</span>
+            <h2 class="section-title" style="margin-bottom: 0;">Selected Projects</h2>
+          </div>
+          <a href="projects.html" class="btn-retro yellow">
+            Explore All <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-preview-grid">
+          <!-- Project 1 -->
+          <div class="project-card-container reveal">
+            <article class="card-retro project-card pink-hover">
+              <div class="card-window-header">
+                <div class="terminal-dots">
+                  <span class="terminal-dot pink"></span>
+                  <span class="terminal-dot yellow"></span>
+                  <span class="terminal-dot teal"></span>
+                </div>
+                <div class="terminal-title">ptb-tobacco-cms</div>
+              </div>
+              <h3>PTB Tobacco Management</h3>
+              <p>
+                A secure administrative compliance dashboard featuring multi-tier JWT authentication and real-time audit logging to track institutional workflows.
+              </p>
+              <div class="project-meta">
+                <span class="project-tag">React.js</span>
+                <span class="project-tag">Node.js</span>
+                <span class="project-tag">Express</span>
+                <span class="project-tag">MongoDB</span>
+              </div>
+              <div class="project-footer-links">
+                <a href="projects.html" class="project-link">
+                  <i data-lucide="external-link"></i> Details
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card-container reveal">
+            <article class="card-retro project-card yellow-hover">
+              <div class="card-window-header">
+                <div class="terminal-dots">
+                  <span class="terminal-dot pink"></span>
+                  <span class="terminal-dot yellow"></span>
+                  <span class="terminal-dot teal"></span>
+                </div>
+                <div class="terminal-title">zimma-mobile-app</div>
+              </div>
+              <h3>Zimma Solution Mobile</h3>
+              <p>
+                A cross-platform task coordination application featuring local offline storage, synchronization pipelines, and background push notifications.
+              </p>
+              <div class="project-meta">
+                <span class="project-tag">Flutter</span>
+                <span class="project-tag">Dart</span>
+                <span class="project-tag">Firebase</span>
+                <span class="project-tag">Auth</span>
+              </div>
+              <div class="project-footer-links">
+                <a href="projects.html" class="project-link">
+                  <i data-lucide="external-link"></i> Details
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card-container reveal">
+            <article class="card-retro project-card">
+              <div class="card-window-header">
+                <div class="terminal-dots">
+                  <span class="terminal-dot pink"></span>
+                  <span class="terminal-dot yellow"></span>
+                  <span class="terminal-dot teal"></span>
+                </div>
+                <div class="terminal-title">agentic-scheduler</div>
+              </div>
+              <h3>Intelligent Schedule Engine</h3>
+              <p>
+                An agentic calendar assistant that parses raw, unstructured scheduling prompts into conflict-resolved, time-blocked planner logs.
+              </p>
+              <div class="project-meta">
+                <span class="project-tag">Next.js</span>
+                <span class="project-tag">OpenAI API</span>
+                <span class="project-tag">LangChain</span>
+              </div>
+              <div class="project-footer-links">
+                <a href="projects.html" class="project-link">
+                  <i data-lucide="external-link"></i> Details
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Skills Teaser Section
+         ========================================================================== -->
+    <section class="section container reveal">
+      <span class="logo-tag" style="margin-left: 0; margin-bottom: 0.5rem; display: inline-block;">Primary Tools</span>
+      <h2 class="section-title">Core Stack Preview</h2>
+      <p style="color: var(--text-dim); margin-bottom: 2rem; max-width: 600px;">
+        I work across full-stack JavaScript ecosystems, mobile application structures, and advanced AI agent models. Here are the core tools I rely on:
+      </p>
+      
+      <div class="skills-preview-flex">
+        <span class="skill-tag" style="border-left: 4px solid var(--color-teal);">JavaScript (ES6+)</span>
+        <span class="skill-tag" style="border-left: 4px solid var(--color-teal);">TypeScript</span>
+        <span class="skill-tag" style="border-left: 4px solid var(--color-pink);">React.js</span>
+        <span class="skill-tag" style="border-left: 4px solid var(--color-pink);">Next.js</span>
+        <span class="skill-tag" style="border-left: 4px solid var(--color-yellow);">Node.js</span>
+        <span class="skill-tag" style="border-left: 4px solid var(--color-yellow);">Express.js</span>
+        <span class="skill-tag" style="border-left: 4px solid var(--color-teal);">MongoDB</span>
+        <span class="skill-tag" style="border-left: 4px solid var(--color-pink);">Flutter</span>
+        <span class="skill-tag" style="border-left: 4px solid var(--color-yellow);">OpenAI API</span>
+        <span class="skill-tag" style="border-left: 4px solid var(--color-teal);">LangChain</span>
+        <span class="skill-tag" style="border-left: 4px solid var(--color-pink);">Docker</span>
+      </div>
+
+      <div style="margin-top: 3rem;">
+        <a href="skills.html" class="btn-retro outline">
+          View Skills Dashboard <i data-lucide="bar-chart-2"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Shared Footer
+       ========================================================================== */ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Abdul <span>Shakoor</span></h3>
+          <p>Full-Stack Web Developer and AI Automation Engineer building production-ready platforms and workflows.</p>
+          <div class="social-links">
+            <a href="https://github.com/khan343962/" target="_blank" class="social-icon" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </a>
+            <a href="https://www.upwork.com/freelancers/~01b7ef2c37f1a19d44" target="_blank" class="social-icon" aria-label="Upwork">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                <path d="M18.561 3.281a4.296 4.296 0 0 0-4.281 4.297v5.197L11.597 7.64c-.754-1.921-2.457-3.237-4.471-3.237a4.773 4.773 0 0 0-4.77 4.774v5.394c0 .884.717 1.602 1.6 1.602s1.6-.718 1.6-1.602V9.177c0-.98.79-1.776 1.77-1.776s1.77.796 1.77.796v2.16L6.892 17.65c-.297.755.074 1.604.83 1.901.753.295 1.603-.075 1.899-.831l1.831-4.664h3.693l-.364 1.606c-.347 1.534-1.71 2.613-3.284 2.613a3.504 3.504 0 0 1-3.262-2.26 1.586 1.586 0 0 0-1.517-1.09c-.88 0-1.594.714-1.594 1.594 0 2.222 1.585 4.108 3.754 4.545a6.577 6.577 0 0 0 5.885-3.037l.45-1.996 1.696 2.235c.52.684 1.488.82 2.172.3.684-.52.82-1.488.3-2.172l-1.942-2.56V7.578a1.283 1.283 0 0 1 1.282-1.283c.708 0 1.281.575 1.281 1.283v5.197c0 .884.717 1.602 1.6 1.602s1.6-.718 1.6-1.602V7.578a4.296 4.296 0 0 0-4.281-4.297z"/>
+              </svg>
+            </a>
+            <a href="https://www.fiverr.com/abdulshakoor733" target="_blank" class="social-icon" aria-label="Fiverr">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                <path d="M18.8 9.5h-3.1v-1.6c0-.5.4-.9.9-.9h2.2V3.5h-3.2c-2.4 0-4.4 2-4.4 4.4v1.6H8.3v3.5h2.9v9.5h4.4v-9.5h3.2V9.5z M7.1 11.2c0-1.1-.9-2-2-2s-2 .9-2 2 .9 2 2 2 2-.9 2-2z M7.1 14.5H3.1v6.5h4v-6.5z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>Get in Touch</h4>
+          <p><i data-lucide="map-pin"></i> <span>Rawalpindi, Punjab, PK</span></p>
+          <p><i data-lucide="mail"></i> <a href="mailto:a.shakoor9744@gmail.com">a.shakoor9744@gmail.com</a></p>
+          <p><i data-lucide="phone"></i> <a href="tel:+923390122130">+92 339 0122130</a></p>
+        </div>
+
+        <div class="footer-status">
+          <h4>Status</h4>
+          <div class="status-indicator">
+            <span class="status-dot"></span>
+            <span class="status-text">Available for work</span>
+          </div>
+          <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="btn-back-to-top">
+            <i data-lucide="arrow-up"></i> Back to top
+          </button>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Abdul Shakoor. All systems operational.</p>
+        <div class="tech-tag"><span>&lt;built-with&gt;</span> HTML, CSS, JS <span>&lt;/built-with&gt;</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
